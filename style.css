@@ -1,0 +1,60 @@
+/*
+Theme Name: G&G Royal Properties
+Theme URI: https://example.com
+Author: Tu Nombre
+Author URI: https://example.com
+Description: Tema personalizado para G&G Royal Properties.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gg-royal-properties
+*/
+
+/* Global Styles */
+body {
+  font-family: var(--font-primary);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--primary-color);
+}
+
+/* Header and Footer */
+header, footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px 0;
+}
+
+header a, footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+  color: var(--secondary-color);
+}
+
+/* Buttons */
+button, .button {
+  background: var(--secondary-color);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .button:hover {
+  background-color: #a69671;
+}
